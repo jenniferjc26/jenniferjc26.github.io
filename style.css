@@ -1,0 +1,84 @@
+p {
+    font-family: arial;
+}
+
+header {
+    border: 2px solid  #C6DEFF;;
+    background-color:  #C6DEFF;;
+    background-image: url(https://qph.fs.quoracdn.net/main-qimg-f981e578fbabb5753d9001312fcbf49f)
+    
+}
+.name {
+    font-family: Comic Sans MS; 
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+.nav {
+        text-align: center;
+}
+
+a:hover {
+    background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0125/7891/rrrrgownm9_shop_preview.png)
+}
+.nav a {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color:#2196F3;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#container {
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    border: 1px dotted #333;
+    padding: 20px;
+}
+.box1 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 150px;
+    background: #666;
+    margin: 0 15px 15px 0;
+}
+.box2 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 200px;
+    background: #666;
+    margin: 0 15px 15px 0;
+}
+.box3 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #666;
+    margin: 0 15px 15px 0;
+}
